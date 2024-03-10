@@ -146,7 +146,7 @@ body {
   background-color: var(--dark-slate-grey);
   cursor: pointer;
   transition: all 0.5s ease;
-  margin-top: 24px;
+  margin-top: 18px;
 }
 
 .form__button:hover {
