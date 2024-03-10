@@ -117,7 +117,7 @@ body {
   background-color: var(--white);
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .form__email::placeholder {
@@ -139,12 +139,13 @@ body {
   background: none;
   height: 5.5rem;
   width: 100%;
-  margin-top: 32px;
+  margin-top: 8%;
   border: none;
   border-radius: 0.6rem;
   background-color: var(--dark-slate-grey);
   cursor: pointer;
   transition: all 0.5s ease;
+  margin-bottom: 24px;
 }
 
 .form__button:hover {
