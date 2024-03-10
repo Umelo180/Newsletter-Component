@@ -1,0 +1,112 @@
+/************* 863px **************/
+@media screen and (max-width: 54em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/************* 780px **************/
+@media screen and (max-width: 48.75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/************* 690px **************/
+@media screen and (max-width: 43.12em) {
+  html {
+    font-size: 45%;
+  }
+
+  .newsletter__form {
+    margin-top: 1.25rem;
+  }
+
+  .form__button {
+    margin-top: 2.5%;
+  }
+}
+
+/************ 625px *************/
+@media screen and (max-width: 39em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/************ 565px *************/
+@media screen and (max-width: 35em) {
+  html {
+    font-size: 45%;
+  }
+
+  body {
+    display: block;
+    background-color: #fff;
+  }
+
+  .newsletter__wrapper {
+    grid-template-columns: 1fr;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .newsletter__text-box {
+    padding: 1.8rem 2.4rem;
+    font-size: 2rem;
+  }
+
+  .text-description {
+    padding: 2rem 0;
+  }
+
+  .newsletter__form {
+    margin-top: 2.5rem;
+  }
+
+  .form__label {
+    font-size: 1.6rem;
+  }
+
+  .form__email {
+    height: 7rem;
+    padding-left: 2rem;
+  }
+
+  .form__button {
+    height: 7rem;
+    margin-top: 5%;
+  }
+
+  .newsletter__hero {
+    grid-row: 1;
+  }
+
+  .newsletter__hero-image {
+    content: url('/assets/images/illustration-sign-up-mobile.svg');
+  }
+
+  /* Success Message */
+  .success__message {
+    max-width: 100svw;
+    min-height: 100svh;
+    padding: 0 2.4rem;
+    border-radius: 0;
+    box-shadow: none;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    z-index: 999;
+  }
+
+  .message__container {
+    min-height: 80svh;
+    margin-top: 40%;
+    justify-content: center;
+  }
+
+  .success__message button {
+    margin-top: 60%;
+  }
+}
