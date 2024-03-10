@@ -118,7 +118,7 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   margin-top: 5%;
-  margin-bottom: 20px
+  margin-bottom: 15px;
 }
 
 .form__email::placeholder {
